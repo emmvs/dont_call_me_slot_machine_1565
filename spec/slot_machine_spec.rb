@@ -1,4 +1,4 @@
-require_relative "../slot_machine"
+require_relative "../slot_machine_w_comments"
 
 def test_scenario(reels, expected_score)
   it "returns #{expected_score} for #{reels[0]}/#{reels[1]}/#{reels[2]}" do
